@@ -3960,11 +3960,7 @@ html {
       margin-right: 530px;
     }
   
-    .enso-magic {
-      margin-bottom: var(--spacing--size-spacing-outer-xl-sm);
-      grid-column-gap: var(--size--size-md);
-      grid-row-gap: var(--size--size-md);
-    }
+  
   
     .testimonials-wrapper {
       margin-bottom: var(--spacing--size-spacing-outer-xl-sm);
