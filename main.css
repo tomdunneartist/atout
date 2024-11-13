@@ -2916,6 +2916,22 @@ html {
     left: 333.077px;
     transform: rotate(2.14deg);
   }
+
+  .tip-image {
+    grid-row-gap: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 900px;
+    padding: 32px 40px;
+    text-decoration: none;
+    display: flex;
+    position: static;
+    top: 685px;
+    left: 333.077px;
+    transform: rotate(2.14deg);
+  }
   
   .text-5 {
     color: #fb6336;
@@ -3898,9 +3914,10 @@ html {
       overflow: hidden;
     }
   
-    .tip-2, .tip-3, .tip-5, .tip-4, .tip-1 {
+    .tip-2, .tip-3, .tip-5, .tip-4, .tip-1, {
       padding: 20px 28px;
     }
+  
   
     .footer {
       padding: var(--spacing--size-spacing-outer-xl-sm) var(--grid--grid-margin-sm);
