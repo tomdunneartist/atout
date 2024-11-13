@@ -48,7 +48,6 @@ html {
   }
   .video-features {
       width: 550px;
-      margin: auto;
   }
 
   @media (max-width: 480px) {
@@ -3707,8 +3706,8 @@ html {
       object-fit: fill;
       margin-top: 0;
       margin-bottom: 0;
-      font-size: 57px;
-      line-height: 54px;
+      font-size: 50px;
+      line-height: 48px;
     }
   
     .headline-h300-h300---book {
@@ -3734,6 +3733,16 @@ html {
       position: relative;
       overflow: hidden;
     }
+
+    .body-b300-b300---book {
+      letter-spacing: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 18px;
+    }
   
     .copy {
       z-index: 5;
@@ -3752,7 +3761,6 @@ html {
     }
   
     .img {
-      display: none;
       grid-column-gap: 12px;
       grid-row-gap: 12px;
       flex-flow: column;
@@ -3763,7 +3771,7 @@ html {
     }
   
     .image {
-      max-width: 50%;
+      max-width: 150%;
     }
   
     .challenge {
@@ -3814,6 +3822,36 @@ html {
       overflow: hidden;
     }
   
+    .avatar-1 {
+      object-fit: cover;
+      position: absolute;
+      top: 126.548px;
+      left: 24px;
+    }
+
+    .avatar-3 {
+      object-fit: cover;
+      position: absolute;
+      top: 280px;
+      left: 130px;
+    }
+    
+    .avatar-2 {
+      object-fit: cover;
+      position: absolute;
+      top: 320px;
+      left: 200px;
+    }
+    
+    .avatar-4 {
+      object-fit: cover;
+      position: absolute;
+      top: 252.548px;
+      left: 199px;
+    }
+    
+
+
     .carrousel {
       padding-right: var(--grid--grid-margin-sm);
       padding-left: var(--grid--grid-margin-sm);
@@ -3959,8 +3997,6 @@ html {
     .carril-image.carril-image-4 {
       margin-right: 530px;
     }
-  
-  
   
     .testimonials-wrapper {
       margin-bottom: var(--spacing--size-spacing-outer-xl-sm);
